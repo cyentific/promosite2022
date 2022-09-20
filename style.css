@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@900&display=swap');
+
+body {
+  font-family: 'Lexend Exa', sans-serif;
+}
+
+p{
+  font-family: 'Lexend Exa', sans-serif;
+  font-size: 15px;
+  width: 150px;
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+#header{
+  font-family: 'Lexend Exa', sans-serif;
+  font-size: 30px;
+  margin: auto;
+  width: 390px;
+  width: 17%;
+}
+
+.hide {
+  display: none;
+  font-family: 'Lexend Exa', sans-serif;
+  font-size: 15px;
+  width: 1500px;
+  margin: auto;
+  width: 34%;
+  border: 3px solid black;
+  padding: 10px;
+  position: absolute: center;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
