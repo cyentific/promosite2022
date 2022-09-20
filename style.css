@@ -22,6 +22,14 @@ p{
   width: 17%;
 }
 
+#contact{
+  font-family: 'Lexend Exa', sans-serif;
+  font-size: 30px;
+  width: 390px;
+  width: 17%;
+  position: right;
+}
+
 .hide {
   display: none;
   font-family: 'Lexend Exa', sans-serif;
@@ -37,6 +45,23 @@ p{
 .myDIV:hover + .hide {
   display: block;
 }
+
+.hide2 {
+  display: none;
+  font-family: 'Lexend Exa', sans-serif;
+  font-size: 15px;
+  width: 1500px;
+  margin: auto;
+  width: 34%;
+  border: 3px solid black;
+  padding: 10px;
+  position: absolute: right;
+}
+
+.myDIV2:hover + .hide {
+  display: block;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
